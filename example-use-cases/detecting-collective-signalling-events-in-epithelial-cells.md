@@ -58,7 +58,7 @@ def remap_segmentation(df: pd.DataFrame, segmentation: list, timepoint_column: s
     tracked_numpy = df[[timepoint_column, label_column, measure_column]].sort_values(timepoint_column).to_numpy()
     grouped_numpy = numpy.split(tracked_numpy,numpy.unique(tracked_numpy[:,0], return_index = True)[1][1:])
     for img, grp in zip(segmentation, grouped_numpy):
-        img_copy = img.copy()
+        img_copy = img.copy().astype('float64')
         for index, region in enumerate(grp[:,1]):
             img_copy[img==int(region)] = grp[index, 2]
         ratio_remapped.append(img_copy)
