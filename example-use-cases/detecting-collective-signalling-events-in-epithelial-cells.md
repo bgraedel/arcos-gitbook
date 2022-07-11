@@ -36,6 +36,7 @@ import errno
 from stardist.models import StarDist2D
 from csbdeep.utils import normalize
 from skimage.measure import regionprops, regionprops_table
+from skimage.util import map_array
 
 import pandas as pd
 import trackpy
@@ -54,13 +55,11 @@ def create_folders(path: str, folder: list):
                 raise
                 
 def remap_segmentation(df: pd.DataFrame, segmentation: list, timepoint_column: str = 'timepoint', label_column: str = 'label', measure_column: str = 'ERK') -> list:
-    ratio_remapped = []
     tracked_numpy = df[[timepoint_column, label_column, measure_column]].sort_values(timepoint_column).to_numpy()
     grouped_numpy = numpy.split(tracked_numpy,numpy.unique(tracked_numpy[:,0], return_index = True)[1][1:])
+    ratio_remapped = []
     for img, grp in zip(segmentation, grouped_numpy):
-        img_copy = img.copy().astype('float64')
-        for index, region in enumerate(grp[:,1]):
-            img_copy[img==int(region)] = grp[index, 2]
+        img_copy = map_array(img, grp[:,1], grp[:, 2])
         ratio_remapped.append(img_copy)
     return ratio_remapped
 ```
@@ -237,6 +236,6 @@ viewer.add_points(points_data, face_color=colors_data, name='collective events')
 
 ![Screenshot of the visualization in napari](<../.gitbook/assets/Screenshot 2022-06-30 153337.jpg>)
 
-{% file src="../.gitbook/assets/arcos_example.ipynb" %}
+{% file src="../.gitbook/assets/arcos_example (1).ipynb" %}
 Download the jupyter notebook
 {% endfile %}
