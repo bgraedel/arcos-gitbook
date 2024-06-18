@@ -17,6 +17,11 @@ We provide several open-source implementations of ARCOS
 ARCOS is now published in the Journal of Cell Biology (JCB):\
 &#x20;[https://doi.org/10.1083/jcb.202207048](https://doi.org/10.1083/jcb.202207048)
 
+For a complete tutorial on how to use ARCOS from raw images to full analysis you may also refer to our recent tutorial published in Methods in Microscopy (MiM):\
+[https://doi.org/10.1515/mim-2024-0003](https://doi.org/10.1515/mim-2024-0003)
+
+and the corresponding [GitHub repository containing a detailed notebook and installation instructions](https://github.com/dmattek/ARCOS-tutorial).
+
 ## Detecting Collective events with ARCOS
 
 <div align="center">
@@ -74,5 +79,20 @@ If you use this method in your research, please cite our paper:
     doi = {10.1083/jcb.202207048},
     url = {https://doi.org/10.1083/jcb.202207048},
     eprint = {https://rupress.org/jcb/article-pdf/222/10/e202207048/1915749/jcb\_202207048.pdf},
+}
+```
+
+and if you used the tutorial please also cite:
+
+```
+@article{DobrzyńskiGrädelGagliardiPertz+2024,
+    url = {https://doi.org/10.1515/mim-2024-0003},
+    title = {Quantification of collective signalling in time-lapse microscopy images},
+    title = {},
+    author = {Maciej Dobrzyński and Benjamin Grädel and Paolo Armando Gagliardi and Olivier Pertz},
+    journal = {Methods in Microscopy},
+    doi = {doi:10.1515/mim-2024-0003},
+    year = {2024},
+    lastchecked = {2024-06-18}
 }
 ```
