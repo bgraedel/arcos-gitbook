@@ -8,11 +8,8 @@ ARCOS is a computational method to detect and quantify collective, spatio-tempor
 The algorithm identifies and tracks spatial clusters in time-lapse images.
 Although designed to analyze signalling phenomena in biological cells or cell collectives, it is applicable to other systems even outside of the realm of cell biology.
 
-<div align="center">
+https://github.com/user-attachments/assets/1ced4c71-9b7f-4c76-89eb-e59dd0e8bd39
 
-<img src=".gitbook/assets/mdck.gif" alt="Quantification of a collective signaling event in a MDCK epithelium. Credit Paolo Gagliardi">
-
-</div>
 
 # Code
 
@@ -32,12 +29,18 @@ Additionally, two dedicated interactive plugins for [napari image viewer](https:
 
 The napari plugins enables anyone without extensive programming knowledge to explore parameters through an intuitive GUI on a platform that emerges as a de-facto standard for viewing multidimensional images.
 
+# Demos
+
+* Demo of the arcos-gui napari plugin ([YouTube](https://youtu.be/hG_z_BFcAiQ))
+* Demo of the entire workflow from raw images to detection of collective events ([YouTube](https://youtu.be/vVDYst-1SyM?si=wk3fnatOTQc4bMn5))
+
+
 # Publications
 
 The original ARCOS algorithm is now published in the Journal of Cell Biology (JCB):\
-&#x20;[https://doi.org/10.1083/jcb.202207048](https://doi.org/10.1083/jcb.202207048)
+[https://doi.org/10.1083/jcb.202207048](https://doi.org/10.1083/jcb.202207048)
 
-For a complete tutorial on how to use ARCOS from raw images to full analysis you may also refer to our recent tutorial published in Methods in Microscopy (MiM):\
+For a complete tutorial on how to use ARCOS from raw images to full analysis refer to our publication in Methods in Microscopy (MiM):\
 [https://doi.org/10.1515/mim-2024-0003](https://doi.org/10.1515/mim-2024-0003)
 
 and the corresponding [GitHub repository](https://github.com/dmattek/ARCOS-tutorial) containing a detailed notebook and installation instructions.
@@ -77,7 +80,6 @@ and if you used the tutorial please also cite:
     url = {https://doi.org/10.1515/mim-2024-0003},
 }
 ```
-
 
 # How to use ARCOS
 
