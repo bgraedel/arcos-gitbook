@@ -2,11 +2,19 @@
 description: ARCOS - Automated Recognition of Correlated Structures
 ---
 
-# ARCOS
+# About
 
 ARCOS is a computational method to detect and quantify collective, spatio-temporally correlated phenomena.
 The algorithm identifies and tracks spatial clusters in time-lapse images.
 Although designed to analyze signalling phenomena in biological cells or cell collectives, it is applicable to other systems even outside of the realm of cell biology.
+
+<div align="center">
+
+<img src=".gitbook/assets/mdck.gif" alt="Quantification of a collective signaling event in a MDCK epithelium. Credit Paolo Gagliardi">
+
+</div>
+
+# Code
 
 We provide open-source implementations of ARCOS for:
 
@@ -15,11 +23,14 @@ We provide open-source implementations of ARCOS for:
 
 Both code bases can handle segmented data and raster images, although the Python version contains additional optimizations and features to handle large datasets.
 
-Additionally, two dedicated interactive plugins for napari image viewer are available:
+# GUI
+
+Additionally, two dedicated interactive plugins for [napari image viewer](https://napari.org/stable/) are available:
 
 * [arcos-gui](https://github.com/bgraedel/arcos-gui) − to handle data from image segmentation
 * [arcosPx-napari](https://github.com/bgraedel/arcosPx-napari) − to handle raster images
 
+The napari plugins enables anyone without extensive programming knowledge to explore parameters through an intuitive GUI on a platform that emerges as a de-facto standard for viewing multidimensional images.
 
 # Publications
 
@@ -31,7 +42,7 @@ For a complete tutorial on how to use ARCOS from raw images to full analysis you
 
 and the corresponding [GitHub repository](https://github.com/dmattek/ARCOS-tutorial) containing a detailed notebook and installation instructions.
 
-If you use this method in your research, please cite our paper:
+If you use this method in your research, please cite our papers:
 
 ```
 @article{10.1083/jcb.202207048,
@@ -67,22 +78,8 @@ and if you used the tutorial please also cite:
 }
 ```
 
-# Detecting collective events with ARCOS
 
-<div align="center">
-
-<img src=".gitbook/assets/mdck.gif" alt="Quantification of a collective signaling event in a MDCK epithelium. Credit Paolo Gagliardi">
-
-</div>
-
-# Usage
-## How to get ARCOS
-
-{% content-ref url="installation/avalilable-implementations/README.md" %}
-[Available implementations](installation/avalilable-implementations/README.md)
-{% endcontent-ref %}
-
-## How to use ARCOS
+# How to use ARCOS
 
 {% content-ref url="example-use-cases/detecting-collective-signalling-events-in-epithelial-cells.md" %}
 [Detecting collective signalling events in an epithelial monolayer](example-use-cases/detecting-collective-signalling-events-in-epithelial-cells.md)
@@ -92,7 +89,7 @@ and if you used the tutorial please also cite:
 [Detecting collective honey bee shimmering](example-use-cases/analysing-collective-phenomena-in-honeybees.md)
 {% endcontent-ref %}
 
-## Overview of how ARCOS works
+# How ARCOS works
 
 Learn the fundamentals of ARCOS to get a deeper understanding of our main features:
 
