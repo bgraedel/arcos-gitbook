@@ -7,7 +7,7 @@ description: >-
 
 # Detecting Collective signalling events in epithelial Cells
 
-![](../.gitbook/assets/export\(1\).gif)
+![](broken-reference)
 
 The following describes an example image processing pipeline written in python to analyse collective events in an MDCK epithelium. What we are aiming for can be seen in the gif above. First, the erk measurement is extracted from the images and the individual nuclei are tracked. The second step shows how to analyse the data with ARCOS. Similar results can be achieved with standalone tools such as CellProfiler and Ilastik. And both the R and Python packages can be used after preparing the data.
 
@@ -85,7 +85,7 @@ model = StarDist2D.from_pretrained('2D_versatile_fluo') # standard stardist mode
 image_data = skimage.io.imread(os.path.join(orig_images_path, FILENAME)) 
 ```
 
-![](../.gitbook/assets/C3-041\_Ori-1.png)
+![](../.gitbook/assets/C3-041_Ori-1.png)
 
 ### Segment Nuclei and extract values from image
 
@@ -171,7 +171,7 @@ ts_filtered = filterer.filter(25, 10)
 NoodlePlot(ts_filtered, 'clTrackID', 'track_id', 'timepoint', 'x', 'y').plot('x')
 ```
 
-![](../.gitbook/assets/noodle\_plot.png)
+![](../.gitbook/assets/noodle_plot.png)
 
 ## Visualize Events in Napari
 
