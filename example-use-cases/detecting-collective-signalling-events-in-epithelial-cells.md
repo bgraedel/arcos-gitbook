@@ -7,9 +7,9 @@ description: >-
 
 # Detecting Collective signalling events in epithelial Cells
 
-![](broken-reference)
-
 The following describes an example image processing pipeline written in python to analyse collective events in an MDCK epithelium. What we are aiming for can be seen in the gif above. First, the erk measurement is extracted from the images and the individual nuclei are tracked. The second step shows how to analyse the data with ARCOS. Similar results can be achieved with standalone tools such as CellProfiler and Ilastik. And both the R and Python packages can be used after preparing the data.
+
+<figure><img src="../.gitbook/assets/erk-waves-mdck-2rows.gif" alt="" width="300"><figcaption></figcaption></figure>
 
 In the following zip file, you can find both the input data and the generated output from the image segmentation pipeline and ARCOS.
 
