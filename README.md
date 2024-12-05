@@ -2,14 +2,8 @@
 description: ARCOS - Automated Recognition of Correlated Structures
 ---
 
-<br>
-<p align="center">
-<img alt="Light" src=".gitbook/assets/ARCOS-classic-logo.png" width="45%">  
-     
-<img alt="Dark" src=".gitbook/assets/cellular-dynamics-lab-logo2.png" width="45%">
-</p>
+![README-ARCOS-logo](https://github.com/user-attachments/assets/c643eeb2-1425-4d0a-812f-21bbb2282c0f)
 
-<br>
 
 # About
 
