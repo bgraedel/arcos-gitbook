@@ -78,18 +78,18 @@ and if you used the tutorial please also cite:
 # Usage
 ## How to get ARCOS
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="installation/avalilable-implementations/README.md" %}
+[Available implementations](installation/avalilable-implementations/README.md)
 {% endcontent-ref %}
 
 ## How to use ARCOS
 
 {% content-ref url="example-use-cases/detecting-collective-signalling-events-in-epithelial-cells.md" %}
-[detecting-collective-signalling-events-in-epithelial-cells.md](example-use-cases/detecting-collective-signalling-events-in-epithelial-cells.md)
+[Detecting collective signalling events in an epithelial monolayer](example-use-cases/detecting-collective-signalling-events-in-epithelial-cells.md)
 {% endcontent-ref %}
 
 {% content-ref url="example-use-cases/analysing-collective-phenomena-in-honeybees.md" %}
-[analysing-collective-phenomena-in-honeybees.md](example-use-cases/analysing-collective-phenomena-in-honeybees.md)
+[Detecting collective honey bee shimmering](example-use-cases/analysing-collective-phenomena-in-honeybees.md)
 {% endcontent-ref %}
 
 ## Overview of how ARCOS works
@@ -97,13 +97,13 @@ and if you used the tutorial please also cite:
 Learn the fundamentals of ARCOS to get a deeper understanding of our main features:
 
 {% content-ref url="algorithm-overview/event-detection-and-tracking.md" %}
-[event-detection-and-tracking.md](algorithm-overview/event-detection-and-tracking.md)
+[Event detection and tracking](algorithm-overview/event-detection-and-tracking.md)
 {% endcontent-ref %}
 
 {% content-ref url="algorithm-overview/data-requirements.md" %}
-[data-requirements.md](algorithm-overview/data-requirements.md)
+[Data requirements](algorithm-overview/data-requirements.md)
 {% endcontent-ref %}
 
 {% content-ref url="algorithm-overview/preprocessing.md" %}
-[preprocessing.md](algorithm-overview/preprocessing.md)
+[Data peprocessing](algorithm-overview/preprocessing.md)
 {% endcontent-ref %}
