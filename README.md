@@ -2,6 +2,15 @@
 description: ARCOS - Automated Recognition of Correlated Structures
 ---
 
+<br>
+<p align="center">
+<img alt="Light" src=".gitbook/assets/ARCOS-classic-logo.png" width="45%">  
+     
+<img alt="Dark" src=".gitbook/assets/cellular-dynamics-lab-logo2.png" width="45%">
+</p>
+
+<br>
+
 # About
 
 ARCOS is a computational method to detect and quantify collective, spatio-temporally correlated phenomena.
