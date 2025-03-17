@@ -4,7 +4,7 @@ description: ARCOS - Automated Recognition of Correlated Structures
 
 # ARCOS
 
-![ARCOS-classic-logo](https://github.com/user-attachments/assets/15541b30-d772-4e5d-89bd-a4ca1fdbdf96)
+![](https://github.com/user-attachments/assets/15541b30-d772-4e5d-89bd-a4ca1fdbdf96)
 
 ## About
 
