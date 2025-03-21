@@ -18,8 +18,8 @@ ARCOS is a computational method to detect and quantify collective, spatio-tempor
 
 We provide open-source implementations of ARCOS for:
 
-* [Python](https://github.com/bgraedel/arcos4py)
-* [R](https://github.com/dmattek/ARCOS)
+* [Python](https://github.com/pertzlab/arcos4py)
+* [R](https://github.com/pertzlab/ARCOS)
 
 Both code bases can handle segmented data and raster images, although the Python version contains additional optimizations and features to handle large datasets.
 
@@ -27,8 +27,8 @@ Both code bases can handle segmented data and raster images, although the Python
 
 Additionally, two dedicated interactive plugins for [napari image viewer](https://napari.org/stable/) are available:
 
-* [arcos-gui](https://github.com/bgraedel/arcos-gui) − to handle data from image segmentation
-* [arcosPx-napari](https://github.com/bgraedel/arcosPx-napari) − to handle raster images
+* [arcos-gui](https://github.com/pertzlab/arcos-gui) − to handle data from image segmentation
+* [arcosPx-napari](https://github.com/pertzlab/arcosPx-napari) − to handle raster images
 
 The napari plugins enables anyone without extensive programming knowledge to explore parameters through an intuitive GUI on a platform that emerges as a de-facto standard for viewing multidimensional images.
 
@@ -45,7 +45,7 @@ The original ARCOS algorithm is now published in the Journal of Cell Biology (JC
 For a complete tutorial on how to use ARCOS from raw images to full analysis refer to our publication in Methods in Microscopy (MiM):\
 [https://doi.org/10.1515/mim-2024-0003](https://doi.org/10.1515/mim-2024-0003)
 
-and the corresponding [GitHub repository](https://github.com/dmattek/ARCOS-tutorial) containing a detailed notebook and installation instructions.
+and the corresponding [GitHub repository](https://github.com/pertzlab/ARCOS-tutorial) containing a detailed notebook and installation instructions.
 
 If you use this method in your research, please cite our papers:
 
